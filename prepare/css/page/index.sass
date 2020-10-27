@@ -25,6 +25,7 @@ li
     display: flex
     align-items: center
     justify-content: space-between
+    margin: 40px 0
     &_middle
       width: 55%
       border-right: 1px solid $color-grey
@@ -32,12 +33,11 @@ li
       div
         display: flex
         align-items: center
-        justify-content: space-between
         .seller_name
           font-size: $font-size-title
           line-height: 1.5rem
           font-weight: bold
-          margin-bottom: 15px
+          margin: 0 20px 15px 0
         .btn_follow
           @extend %button-follow
           p
@@ -59,7 +59,7 @@ li
               color: $color-grey
               margin-bottom: 5px
             .show_number
-              font-size: $font-size-show-number
+              font-size: $font-size-primary
             span
               font-size: $font-size-primary
     &_right
@@ -75,7 +75,7 @@ li
           margin: 0 5px
           font-size: $font-size-primary
   .announcement
-    margin: 40px 0
+    margin: 60px 0
     border-radius: 8px
     background: $bg-color-info
     padding: 20px 0 0 50px
@@ -90,16 +90,16 @@ li
   .seller_products
     &_title
       font-size: $font-size-title
+      margin: 30px 0
     .hr
       margin: 20px auto
-      width: 95%
+      width: 100%
       border: 1px solid $color-grey
     ul
       display: flex
-      justify-content: space-around
+      justify-content: space-between
       margin: 0 auto 30px auto
       li  
-        margin: 0 15px
         img
           background: center/cover no-repeat
           height: 190px
