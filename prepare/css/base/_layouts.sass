@@ -59,17 +59,25 @@
           margin-left: -5px
 
 footer
-  height: 200px
+  height: 150px
   background: $bg-color-info
-  padding: 50px 0 
+  padding: 50px 0
   display: flex
-  justify-content: space-around
-  .footer_title
+  flex-direction: column
+  justify-content: center
+  .footer_items
     font-size: $font-size-primary
     font-weight: bold
     margin-bottom: 10px
-  li
-    margin-bottom: 5px
+  ul
+    width: 60%
+    margin: 10px auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+    li
+      display: flex
+
   
 
 .banner
