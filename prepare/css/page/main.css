@@ -70,19 +70,27 @@
 }
 
 footer {
-  height: 200px;
+  height: 150px;
   background: #f7f7f8;
   padding: 50px 0;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
 }
-footer .footer_title {
+footer .footer_items {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-footer li {
-  margin-bottom: 5px;
+footer ul {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul li {
+  display: flex;
 }
 
 .banner {
@@ -128,7 +136,7 @@ footer li {
   line-height: 2rem;
   background-color: transparent;
   border-radius: 4px;
-  border: solid 1px #a1a4a7;
+  border: solid 1px #04c5fb30;
   color: #414f57 !important;
   cursor: pointer;
   text-align: center;
@@ -165,6 +173,7 @@ footer li {
 
 .btn_help {
   position: fixed;
+  color: #929295;
   right: 20px;
   bottom: 50px;
   height: 40px;
@@ -201,6 +210,24 @@ footer li {
 
 .bell_logo {
   background: url("./../../svg/bell.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.shopping-cart_logo {
+  background: url("./../../svg/shopping-cart.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.moon_logo {
+  background: url("./../../svg/bed.svg") center/cover no-repeat;
   width: 18px;
   height: 18px;
   cursor: pointer;
@@ -345,6 +372,42 @@ footer li {
 
 .more_logo {
   background: url("./../../svg/more.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.facebook_logo {
+  background: url("./../../svg/facebook.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.twitter_logo {
+  background: url("./../../svg/twitter.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.line_logo {
+  background: url("./../../svg/line.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.github_logo {
+  background: url("./../../svg/github.svg") center/cover no-repeat;
   width: 18px;
   height: 18px;
   cursor: pointer;
