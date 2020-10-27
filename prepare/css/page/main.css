@@ -3,12 +3,16 @@
   top: 0;
   left: 0;
   right: 0;
+  height: 110px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
+  padding: 15px 0;
+}
+.navbar_top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 .navbar_left {
   display: flex;
@@ -46,6 +50,24 @@
   display: flex;
   align-items: center;
 }
+.navbar_bottom {
+  display: flex;
+  justify-content: center;
+}
+.navbar_bottom ul {
+  display: flex;
+  align-items: center;
+}
+.navbar_bottom ul li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar_bottom ul li p {
+  margin-left: -5px;
+}
+
 footer {
   height: 200px;
   background: #f7f7f8;
@@ -201,6 +223,114 @@ footer li {
   margin: 8px 11px;
 }
 
+.schedule_logo {
+  background: url("./../../svg/schedule.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.desktop_logo {
+  background: url("./../../svg/desktop.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.coffee_logo {
+  background: url("./../../svg/coffee.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.dropbox_logo {
+  background: url("./../../svg/dropbox.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.sanitizer-alt_logo {
+  background: url("./../../svg/sanitizer-alt.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.postcard_logo {
+  background: url("./../../svg/postcard.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.books_logo {
+  background: url("./../../svg/books.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.bug_logo {
+  background: url("./../../svg/bug.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.crockery_logo {
+  background: url("./../../svg/crockery.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.basketball_logo {
+  background: url("./../../svg/basketball.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.gift_logo {
+  background: url("./../../svg/gift.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
+.more_logo {
+  background: url("./../../svg/more.svg") center/cover no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  filter: opacity(0.8);
+  margin: 8px 11px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -221,7 +351,7 @@ li {
 }
 
 .wrapper {
-  margin: 50px 150px;
+  margin: 110px 150px;
 }
 .wrapper .seller_info {
   display: flex;

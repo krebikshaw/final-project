@@ -3,12 +3,15 @@
   top: 0
   left: 0
   right: 0
-  background: $bg-color-primary
-  display: flex
-  justify-content: space-between
-  align-items: center
-  height: 50px
+  height: 110px
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2)
+  background: $bg-color-primary
+  padding:15px 0
+  &_top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 15px
   &_left
     display: flex
     align-items: center
@@ -40,6 +43,19 @@
       align-items: center
       .btn_login
         @extend %button-login
+  &_bottom
+    display: flex
+    justify-content: center
+    ul
+      display: flex
+      align-items: center
+      li
+        margin: 0 10px
+        display: flex
+        align-items: center
+        cursor: pointer
+        p
+          margin-left: -5px
 
 footer
   height: 200px
