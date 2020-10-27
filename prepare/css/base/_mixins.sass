@@ -1,0 +1,18 @@
+@mixin createCircle($size)
+	width: $size
+	height: $size
+	border-radius:50%
+	overflow: hidden
+
+@mixin absCenter($top: 50%)
+	position: absolute
+	top: $top
+	left: 50%
+	transform: translate(-50%, -50%)
+
+@mixin iconSetting($size, $opacity)
+	width: $size
+	height: $size
+	cursor: pointer
+	filter: opacity($opacity)
+	margin: 8px 11px

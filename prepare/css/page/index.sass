@@ -1,0 +1,120 @@
+@import ../base/_variables
+@import ../base/_mixins
+@import ../base/_layouts
+@import ../base/_components
+@import ../base/_icons
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  background: #fff
+
+a
+  text-decoration: none
+  display: flex
+
+li
+  list-style-type: none
+
+.wrapper
+  margin: 50px 150px
+  .seller_info
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &_middle
+      width: 55%
+      border-right: 1px solid $color-grey
+      padding-right: 120px
+      div
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .seller_name
+          font-size: $font-size-title
+          line-height: 1.5rem
+          font-weight: bold
+          margin-bottom: 15px
+        .btn_follow
+          @extend %button-follow
+          p
+            font-size: $font-size-primary
+            text-align: left
+      div + div
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        ul
+          display: flex
+          align-items: center
+          li
+            margin: 5px 20px 5px 0
+            width: 90px
+            p
+              font-size: $font-size-primary
+              color: $color-grey
+              margin-bottom: 5px
+            .show_number
+              font-size: $font-size-show-number
+            span
+              font-size: $font-size-primary
+    &_right
+      .seller_contact_title
+        font-size: $font-size-title
+        line-height: 1.5rem
+        margin-bottom: 15px
+      li
+        display: flex
+        align-items: center
+        margin: 5px 0
+        p
+          margin: 0 5px
+          font-size: $font-size-primary
+  .announcement
+    margin: 40px 0
+    border-radius: 8px
+    background: $bg-color-info
+    padding: 20px 0 0 50px
+    &_title
+      font-size: $font-size-primary
+    &_content
+      font-size: $font-size-primary
+      line-height: 1.5rem
+      white-space: break-spaces
+      word-wrap: break-word
+      word-break: break-all
+  .seller_products
+    &_title
+      font-size: $font-size-title
+    .hr
+      margin: 20px auto
+      width: 95%
+      border: 1px solid $color-grey
+    ul
+      display: flex
+      justify-content: space-around
+      margin: 0 auto 30px auto
+      li  
+        margin: 0 15px
+        img
+          background: center/cover no-repeat
+          height: 190px
+        .product_info
+          padding-left: 15px
+          .product_name
+            font-weight: bold
+            font-size: $font-size-second
+            margin: 8px 0
+          .seller_name
+            font-size: $font-size-primary
+            margin-bottom: 3px
+          .prize
+            font-size: $font-size-primary
+    .btn_read_more
+      @extend %button-read-more
+      margin: 0 auto
+      
