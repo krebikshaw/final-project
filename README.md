@@ -27,8 +27,10 @@ Give++ 是一個二手交易平台
     - Imgur
 
     
-## Pages Strcture ( 2020.03 )
-![Pages Structure](blob:https://whimsical.com/ac2b3c0d-ebe9-42a6-af10-4a1870c40b7d)
+## Pages Strcture
+![Pages Structure](blob:https://whimsical.com/62e77f22-1db2-40aa-b1b2-96639a207d22)
+
+
 
 ## Website Demo
 
