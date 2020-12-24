@@ -28,7 +28,7 @@ Give++ 是一個二手交易平台
 
     
 ## Pages Strcture
-![Pages Structure](blob:https://whimsical.com/62e77f22-1db2-40aa-b1b2-96639a207d22)
+![Pages Structure](https://github.com/krebikshaw/final-project/blob/master/d91a479b-a380-4a67-afa5-80eca57d8b7d.png?raw=true)
 
 
 
