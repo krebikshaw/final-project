@@ -27,10 +27,8 @@ Give++ 是一個二手交易平台
     - Imgur
 
     
-## Core Components Strcture ( 2020.03 )
-![Filter, Sort and Search](https://firebasestorage.googleapis.com/v0/b/meet-trail-right.appspot.com/o/projectPictures%2FREADME%2FBasic%20Component%20Strcture%201.png?alt=media&token=7d97c074-8914-453f-9ae4-a2e4f6686df6)
-
-![Filter, Sort and Search](https://firebasestorage.googleapis.com/v0/b/meet-trail-right.appspot.com/o/projectPictures%2FREADME%2FBasic%20Component%20Strcture%202.png?alt=media&token=04d5b8e0-f4be-46e4-9dd3-1dcee227e6c8)
+## Pages Strcture ( 2020.03 )
+![Pages Structure](blob:https://whimsical.com/ac2b3c0d-ebe9-42a6-af10-4a1870c40b7d)
 
 ## Website Demo
 
