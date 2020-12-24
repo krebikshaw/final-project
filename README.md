@@ -13,11 +13,11 @@ Give++ 是一個二手交易平台
   - **後台管理系統**，審核最新刊登的商品，管理網站的用戶及商品
 
 
-## Technologies
-- Front-End Frameworks
+## 技術
+- 前端框架
     - React Hooks
     - React Dom
-- Third-party Library
+- 第三方套件
     - React Redux
     - Redux Toolkit
     - React Router
@@ -25,14 +25,14 @@ Give++ 是一個二手交易平台
     - Nuka Carousel
     - Snow
     - Cypress
-- Third-party API
+- 第三方 API
     - Imgur
 
     
-## Pages Strcture
+## 頁面結構
 ![Pages Structure](https://github.com/krebikshaw/final-project/blob/master/d91a479b-a380-4a67-afa5-80eca57d8b7d.png?raw=true)
 
 
 
-## Website Demo
+## 網站樣品
 
