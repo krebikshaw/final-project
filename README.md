@@ -65,6 +65,10 @@ Give++ 二手交易平台
 可以將商品加入購物車，查看欲購買的商品內容及金額，並成立訂單
 ![](https://github.com/krebikshaw/final-project/blob/master/%E8%B3%BC%E7%89%A9%E8%BB%8A.gif?raw=true)
 
+### 賣家後台
+可以編輯公告、編輯賣家資料、刊登商品、編輯商品
+![](https://github.com/krebikshaw/final-project/blob/master/%E5%88%8A%E7%99%BB%E5%95%86%E5%93%81.gif?raw=true)
+
 
 ## License
 
