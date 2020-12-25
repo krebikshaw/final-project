@@ -35,7 +35,7 @@ Give++ 二手交易平台
 
 
 ## 功能結構
-1[Feature Struture]()
+1[Feature Struture](https://github.com/krebikshaw/final-project/blob/master/e42723f6-5286-46c1-a5d3-5a5e2b1a4a74.png?raw=true)
 
 
 ## 網站樣品
