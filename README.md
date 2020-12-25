@@ -2,7 +2,7 @@
 Give++ 二手交易平台
 > 網站連結 : localhost:3000
 
-## 簡介
+## 專案簡介
 這是 Give++ 二手交易平台的前端原始碼，採用 React Hooks 和 Redux Toolkit 開發。 
 
 - 使用者可使用功能：
@@ -15,13 +15,13 @@ Give++ 二手交易平台
 - 管理員可使用功能：
   - **後台管理系統**：審核最新刊登的商品，管理/維護網站的用戶及商品
 
-## 建置
-- 安裝套件： npm install
-- 開發 npm run start 
-- 部署 npm run build
+## 建置方式
+- 安裝: npm install
+- 開發: npm run start 
+- 部署: npm run build
 
 
-## 技術
+## 使用技術
 - 前端框架
     - React Hooks
     - React Dom
