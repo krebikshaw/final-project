@@ -83,6 +83,23 @@ Give++ 二手交易平台
 Give++ 二手交易平台的後端，採用 Express 和 Sequelize 進行開發
 - 專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
 
+## 測試說明
+本專案利用 Cypress 對於註冊、登入、登出功能，做基本測試
+
+### 測試項目：
+- 取得使用者資訊
+- 註冊、登入、登出之基本功能
+- 各項欄位輸入錯誤時的錯誤提示
+
+### 測試指令：
+#### `yarn cypress:open`
+啟動 Cypress E2E 測試工具
+#### `yarn cypress:run`
+執行 Cypress E2E 測試，並生成或更新測試影片
+
+### 測試畫面
+![](https://github.com/krebikshaw/final-project/blob/master/%E6%B8%AC%E8%A9%A6%E7%95%AB%E9%9D%A2.gif?raw=true)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
