@@ -1,6 +1,7 @@
 # Give++
 Give++ 二手交易平台
- 網站連結 : localhost:3000
+
+> 網站連結 : localhost:3000
 
 ![](https://github.com/krebikshaw/final-project/blob/master/%E9%A6%96%E9%A0%81%E6%88%AA%E5%9C%96.png?raw=true)
 
