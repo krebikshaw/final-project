@@ -1,6 +1,7 @@
 # Give++
 Give++ 二手交易平台
 > 網站連結 : localhost:3000
+![](https://github.com/krebikshaw/final-project/blob/master/%E9%A6%96%E9%A0%81%E6%88%AA%E5%9C%96.png?raw=true)
 
 ## 專案簡介
 這是 Give++ 二手交易平台的前端原始碼，採用 React Hooks 和 Redux Toolkit 開發。 
