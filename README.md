@@ -73,6 +73,13 @@ Give++ 二手交易平台
 可以編輯公告、編輯賣家資料、刊登商品、編輯商品
 ![](https://github.com/krebikshaw/final-project/blob/master/%E5%88%8A%E7%99%BB%E5%95%86%E5%93%81.gif?raw=true)
 
+### 管理後台
+管理員可以審核新商品，可以管理/維護網站中的商品及用戶
+![](https://github.com/krebikshaw/final-project/blob/master/%E7%AE%A1%E7%90%86%E5%BE%8C%E5%8F%B0.gif?raw=true)
+
+## 專案後端
+Give++ 二手交易平台的後端原始碼，採用 Express 和 Sequelize 開發
+專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
 
 ## License
 
