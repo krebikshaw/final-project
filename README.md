@@ -78,8 +78,8 @@ Give++ 二手交易平台
 ![](https://github.com/krebikshaw/final-project/blob/master/%E7%AE%A1%E7%90%86%E5%BE%8C%E5%8F%B0.gif?raw=true)
 
 ## 專案後端
-Give++ 二手交易平台的後端，採用 Express 和 Sequelize 開發
-專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
+Give++ 二手交易平台的後端，採用 Express 和 Sequelize 進行開發
+- 專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
 
 ## License
 
