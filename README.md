@@ -34,6 +34,9 @@ Give++ 二手交易平台
 ![Pages Structure](https://github.com/krebikshaw/final-project/blob/master/d91a479b-a380-4a67-afa5-80eca57d8b7d.png?raw=true)
 
 
+## 功能結構
+1[Feature Struture]()
+
 
 ## 網站樣品
 
