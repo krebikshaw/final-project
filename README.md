@@ -79,11 +79,7 @@ Give++ 二手交易平台
 管理員可以審核新商品，可以管理/維護網站中的商品及用戶
 ![](https://github.com/krebikshaw/final-project/blob/master/%E7%AE%A1%E7%90%86%E5%BE%8C%E5%8F%B0.gif?raw=true)
 
-## 專案後端
-Give++ 二手交易平台的後端，採用 Express 和 Sequelize 進行開發
-- 專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
-
-## 測試說明
+## 專案測試
 本專案利用 Cypress 對於註冊、登入、登出功能，做基本測試
 
 ### 測試項目：
@@ -99,6 +95,12 @@ Give++ 二手交易平台的後端，採用 Express 和 Sequelize 進行開發
 
 ### 測試畫面
 ![](https://github.com/krebikshaw/final-project/blob/master/%E6%B8%AC%E8%A9%A6%E7%95%AB%E9%9D%A2.gif?raw=true)
+
+
+## 專案後端
+Give++ 二手交易平台的後端，採用 Express 和 Sequelize 進行開發
+- 專案連結：https://github.com/krebikshaw/Give-plus-plus-backend
+
 
 ## License
 
