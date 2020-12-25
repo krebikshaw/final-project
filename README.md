@@ -15,10 +15,19 @@ Give++ 二手交易平台
 - 管理員可使用功能：
   - **後台管理系統**：審核最新刊登的商品，管理/維護網站的用戶及商品
 
-## 建置方式
-- 安裝: npm install
-- 開發: npm run start 
-- 部署: npm run build
+## 如何執行
+
+#### `npm install`
+安裝此專案所需的第三方套件
+
+#### `yarn start`
+在 [http://localhost:3000](http://localhost:3000) 上啟動此專案
+
+#### `yarn build`
+在 `build` 資料夾中建立此專案的 production 版本
+
+#### `yarn deploy`
+在 GitHub Page 上部屬此專案網站
 
 
 ## 使用技術
@@ -26,7 +35,6 @@ Give++ 二手交易平台
     - React Hooks
     - React Dom
 - 第三方套件
-    - React Redux
     - Redux Toolkit
     - React Router
     - Dayjs
@@ -47,5 +55,10 @@ Give++ 二手交易平台
 ![Feature Structure](https://github.com/krebikshaw/final-project/blob/master/e42723f6-5286-46c1-a5d3-5a5e2b1a4a74.png?raw=true)
 
 
-## 網站樣品
+## 專案 DEMO
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
