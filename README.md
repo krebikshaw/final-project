@@ -57,6 +57,10 @@ Give++ 二手交易平台
 
 ## 專案 DEMO
 
+### 商品搜尋
+可依照最新商品、手動搜尋、分類搜尋方式搜尋商品，且可在搜尋結果頁面自訂商品的排序方式
+![](https://github.com/krebikshaw/final-project/blob/master/%E6%90%9C%E5%B0%8B%E5%95%86%E5%93%81.gif?raw=true)
+
 
 ## License
 
